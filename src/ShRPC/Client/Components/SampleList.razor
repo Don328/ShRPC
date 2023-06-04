@@ -1,0 +1,19 @@
+﻿<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sample in Samples)
+        {
+            <tr>
+                <td>@sample.Id</td>
+                <td>@sample.Name</td>
+                <td>@sample.Value</td>
+            </tr>
+        }
+    </tbody>
+</table>
